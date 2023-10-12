@@ -9,10 +9,42 @@ body {
     background-color: hsl(30, 38%, 92%);
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-  }
 
-  main {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
     background-color: red;
     width: 560px;
     height: 400px;
-  }
+
+    display: flex;
+}
+
+.Photo-Product {
+    background-color: blue;
+    width: 280px;
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Content-Product {
+    /*   background-color: yellow;*/
+    background-color: hsl(0, 0%, 100%);
+    width: 280px;
+    padding: 28px;
+}
+
+.Content-Product h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 7px;
+    color: hsl(228, 12%, 48%);
+}
