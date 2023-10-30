@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trabajando con Bootstrap</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
   <div class="hero-slide">
     <header class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="#">Coach.</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -43,7 +47,7 @@
         </div>
       </div>
     </header>
-  
+
     <section class="d-flex flex-column align-items-center hero">
       <h1 class="fs-1">Become the hero of your own story</h1>
       <p class="fs-5">Join our Coach community of like-minded individuals. Get your ticket to the 2021 event.</p>
@@ -51,21 +55,93 @@
     </section>
   </div>
 
-  <section class="container">
+  <section class="d-flex flex-column align-items-center hero">
+    <h2 class="fs-1">A Boy Before Coach</h2>
+    <p class="text-secondary sf-6 ABBC_Parrafo">
+      Before Coach became a media sensation for empowering people and sharing 'Inspiration' across the globe, he had his
+      share of obstacles to overcome.
+    </p>
     <div class="row">
       <div class="col">
-        Column
+        <img src="https://codescandy.com/coach/bootstrap-5/assets/images/profile-img-1.png"
+          class="img-fluid h-100 rounded w-100">
       </div>
       <div class="col">
-        Column
+        <img src="https://codescandy.com/coach/bootstrap-5/assets/images/profile-img-2.png"
+          class="img-fluid h-100 rounded w-100">
       </div>
       <div class="col">
-        Column
+        <p class="mb-9">
+          From having a learning disability, which led to being alone and bullied in school, to being sexually abused as
+          a child, to being injured and broke on his sister’s couch, The Coach story is the perfect example of how
+          anybody can overcome the obstacles in their life and achieve greatness.
+        </p>
+        <div>
+          <img src="https://codescandy.com/coach/bootstrap-5/assets/images/profile-img-3.png"
+            class=" img-fluid h-50 w-50">
+        </div>
+
+        <div>
+          <img src="https://codescandy.com/coach/bootstrap-5/assets/images/profile-img-4.png"
+            class=" img-fluid h-20 w-50">
+        </div>
+
       </div>
     </div>
   </section>
 
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col p-0">
+        <img src="https://codescandy.com/coach/bootstrap-5/assets/images/gallery-img-1.jpg" class="img-fluid">
+      </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <div class="col p-0">
+        <div class="row">
+          <img src="https://codescandy.com/coach/bootstrap-5/assets/images/gallery-img-2.jpg" class="img-fluid">
+        </div>
+        <div class="row">
+          <img src="https://codescandy.com/coach/bootstrap-5/assets/images/gallery-img-3.jpg" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="col p-0">
+        <div class="row">
+          <img src="https://codescandy.com/coach/bootstrap-5/assets/images/gallery-img-4.jpg" class="img-fluid">
+        </div>
+        <div class="row">
+          <img src="https://codescandy.com/coach/bootstrap-5/assets/images/gallery-img-5.jpg" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="col p-0">
+        <img src="https://codescandy.com/coach/bootstrap-5/assets/images/gallery-img-6.jpg" class="img-fluid">
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <div class="card " style="width: 24rem">
+      <div class="card-body">
+        <h5 class="card-title">Book for Speaking or
+          Workshops</h5>
+        <p class="card-text">Call me at: 123-567-7890 or Book online by fill below form.</p>
+        <div class="mb-3">
+          <label for="email_form" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email_form" placeholder="name@example.com">
+        </div>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
