@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="./style.css">
 
-  <title>Document</title>
+  <title>Error State</title>
 
 
   <style>
@@ -42,15 +42,19 @@
 
 
       <form>
-        <label>
+        <label class="email-label" for="email">
           <div class="Label-Email">
             Email address
           </div>
-          <input type="email" name="email" required placeholder=" email@company.com" />
+          <div class="Error-Email" id="email-error">
+            Valid email required
+          </div>
+          <input type="email" name="email" id="email" required placeholder=" email@company.com" />
+
         </label>
 
         <div class="Button-Email">
-           <input type="submit" value="Subscribe to monthly newsletter" />
+          <input type="submit" value="Subscribe to monthly newsletter" />
         </div>
       </form>
 

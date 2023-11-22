@@ -76,6 +76,15 @@ main {
     font-weight: 700;
     font-size: 8px;
     margin: 2px;
+    display: inline-block; /* o display: inline; */
+
+}
+.Error-Email {
+    font-weight: 700;
+    font-size: 8px;
+    margin: 2px;
+    color: hsl(0, 70%, 50%); /* Tono rojo calido */
+    display: inline-block; /* o display: inline; */
 }
 
 form label input {
